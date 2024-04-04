@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "minimal_server_2_classify"
+version = "0.1.0"
+description = ""
+authors = ["Adriano R. de Sousa <adrianorodriguesdsousa@ufpi.edu.br>"]
+
+[tool.poetry.scripts]
+server = "minimal_server_2_classify.server:run"
+client = "minimal_server_2_classify.client:run"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tensorflow = {extras = ["and-cuda"], version = "^2.16.1"}
+fastapi = "^0.110.1"
+matplotlib = "^3.8.4"
+requests = "^2.31.0"
+uvicorn = "^0.29.0"
+python-multipart = "^0.0.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
