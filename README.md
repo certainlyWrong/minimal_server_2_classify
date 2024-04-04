@@ -2,7 +2,7 @@ O repositório contém uma pequena API para executar testes com modelos de Machi
 
 ## Executando a API
 
-Para executar a API, é necessário ter o ![Poetrt](https://python-poetry.org/) instalado. Com o Poetry instalado, execute o comando abaixo para instalar as dependências do projeto:
+Para executar a API, é necessário ter o [Poetrt](https://python-poetry.org/) instalado. Com o Poetry instalado, execute o comando abaixo para instalar as dependências do projeto:
 
 ```bash
 poetry install
